@@ -62,5 +62,12 @@ print(p.html(
         p.p("I hope you find it helpful!"),
         paragraphs,
         p.p("Thank you for reading. I hope your experience was enjoyable!"),
+        p.p(
+            "If this website helped you revise the primary content of",
+            "COMP4920, please",
+            p.a(href="https://github.com/MaddyGuthridge/comp4920-summary")(
+                "star the project on GitHub"
+            ),
+        ),
     ),
 ))
